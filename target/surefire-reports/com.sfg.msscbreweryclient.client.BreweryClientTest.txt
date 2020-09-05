@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.sfg.msscbreweryclient.client.BreweryClientTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 6.48 s <<< FAILURE! - in com.sfg.msscbreweryclient.client.BreweryClientTest
+updateBeerTest  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'breweryClient': Could not bind properties to 'BreweryClient' : prefix=com.sfg, ignoreInvalidFields=false, ignoreUnknownFields=false; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'com.sfg' to com.sfg.msscbreweryclient.client.BreweryClient
+Caused by: org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'com.sfg' to com.sfg.msscbreweryclient.client.BreweryClient
+Caused by: org.springframework.boot.context.properties.bind.UnboundConfigurationPropertiesException: The elements [com.sfg.apihost] were left unbound.
+
+getBeerByIdTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'breweryClient': Could not bind properties to 'BreweryClient' : prefix=com.sfg, ignoreInvalidFields=false, ignoreUnknownFields=false; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'com.sfg' to com.sfg.msscbreweryclient.client.BreweryClient
+Caused by: org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'com.sfg' to com.sfg.msscbreweryclient.client.BreweryClient
+Caused by: org.springframework.boot.context.properties.bind.UnboundConfigurationPropertiesException: The elements [com.sfg.apihost] were left unbound.
+
+deleteBeerTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'breweryClient': Could not bind properties to 'BreweryClient' : prefix=com.sfg, ignoreInvalidFields=false, ignoreUnknownFields=false; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'com.sfg' to com.sfg.msscbreweryclient.client.BreweryClient
+Caused by: org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'com.sfg' to com.sfg.msscbreweryclient.client.BreweryClient
+Caused by: org.springframework.boot.context.properties.bind.UnboundConfigurationPropertiesException: The elements [com.sfg.apihost] were left unbound.
+
+saveNewBeerTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'breweryClient': Could not bind properties to 'BreweryClient' : prefix=com.sfg, ignoreInvalidFields=false, ignoreUnknownFields=false; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'com.sfg' to com.sfg.msscbreweryclient.client.BreweryClient
+Caused by: org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'com.sfg' to com.sfg.msscbreweryclient.client.BreweryClient
+Caused by: org.springframework.boot.context.properties.bind.UnboundConfigurationPropertiesException: The elements [com.sfg.apihost] were left unbound.
+

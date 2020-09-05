@@ -1,0 +1,7 @@
+com\sfg\msscbreweryclient\client\BreweryClient.class
+com\sfg\msscbreweryclient\MsscBreweryClientApplication.class
+com\sfg\msscbreweryclient\model\BeerDto$BeerDtoBuilder.class
+com\sfg\msscbreweryclient\model\CustomerDto$CustomerDtoBuilder.class
+com\sfg\msscbreweryclient\client\CustomerClient.class
+com\sfg\msscbreweryclient\model\BeerDto.class
+com\sfg\msscbreweryclient\model\CustomerDto.class

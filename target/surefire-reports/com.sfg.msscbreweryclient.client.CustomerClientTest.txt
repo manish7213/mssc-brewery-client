@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.sfg.msscbreweryclient.client.CustomerClientTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.029 s <<< FAILURE! - in com.sfg.msscbreweryclient.client.CustomerClientTest
+getCustomerById  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'breweryClient': Could not bind properties to 'BreweryClient' : prefix=com.sfg, ignoreInvalidFields=false, ignoreUnknownFields=false; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'com.sfg' to com.sfg.msscbreweryclient.client.BreweryClient
+Caused by: org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'com.sfg' to com.sfg.msscbreweryclient.client.BreweryClient
+Caused by: org.springframework.boot.context.properties.bind.UnboundConfigurationPropertiesException: The elements [com.sfg.apihost] were left unbound.
+
